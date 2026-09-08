@@ -19,7 +19,7 @@ jobs:
         with: 
           node-version: "24" 
 
-      - name: Install Deps
+      - name: Install Dependencies
         run: npm install
 
       - name: Run Lint
